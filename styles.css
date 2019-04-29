@@ -8,18 +8,55 @@
 
 }
 
-.title{
+.title {
     color: blue;
     text-align: center;
     text-decoration: underline;
 }
 
-.text{
+.text {
     color: color;
     font-weight: bold;
     text-align: right;
 }
 
-.secondTitle{
+.secondTitle {
     color: pink;
 }
+
+
+.content {
+    padding: 50px;
+}
+
+.itemsTable {
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border: 2px solid #4F7849;
+    background-color: #EEEEEE;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.itemsTable td,
+.itemsTable th {
+    border: 1px solid #4F7849;
+    padding: 3px 2px;
+
+}
+
+.itemsTable tbody td {
+    font-size: 19px;
+    font-weight: bold;
+    color: #4F7849;
+
+}
+
+.itemsTable tr:nth-child(even) {
+
+    background: #CEE0CC;
+
+}
+
+
