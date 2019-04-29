@@ -4,7 +4,6 @@
     height: 500px;
     width: 500px;
     border: 1px solid green;
-    align-items: center;
     padding: 20px;
 
 }
@@ -17,4 +16,5 @@
 .text{
     color: color;
     font-weight: bold;
+    text-align: right;
 }
